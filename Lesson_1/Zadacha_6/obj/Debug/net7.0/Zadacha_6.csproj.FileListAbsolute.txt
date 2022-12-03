@@ -1,0 +1,15 @@
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.csproj.AssemblyReference.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.AssemblyInfoInputs.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.AssemblyInfo.cs
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.csproj.CoreCompileInputs.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/bin/Debug/net7.0/Zadacha_6
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/bin/Debug/net7.0/Zadacha_6.deps.json
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/bin/Debug/net7.0/Zadacha_6.runtimeconfig.json
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/bin/Debug/net7.0/Zadacha_6.dll
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/bin/Debug/net7.0/Zadacha_6.pdb
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.dll
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/refint/Zadacha_6.dll
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.pdb
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/Zadacha_6.genruntimeconfig.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/Введение в программирование/Home work/Lesson_1/Zadacha_6/obj/Debug/net7.0/ref/Zadacha_6.dll
