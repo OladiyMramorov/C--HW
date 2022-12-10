@@ -1,6 +1,7 @@
 ﻿Console.Write("Введите число: ");
 int cube = Convert.ToInt32(Console.ReadLine());
-void Cube(int[] cube){
+void Cube(int[] cube)
+{
   int counter = 0;
   int length = cube.Length;
   while (counter <  length)
