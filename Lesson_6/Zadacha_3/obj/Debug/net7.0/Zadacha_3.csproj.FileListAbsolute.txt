@@ -1,0 +1,5 @@
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_6/Zadacha_3/obj/Debug/net7.0/Zadacha_3.csproj.AssemblyReference.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_6/Zadacha_3/obj/Debug/net7.0/Zadacha_3.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_6/Zadacha_3/obj/Debug/net7.0/Zadacha_3.AssemblyInfoInputs.cache
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_6/Zadacha_3/obj/Debug/net7.0/Zadacha_3.AssemblyInfo.cs
+/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_6/Zadacha_3/obj/Debug/net7.0/Zadacha_3.csproj.CoreCompileInputs.cache
