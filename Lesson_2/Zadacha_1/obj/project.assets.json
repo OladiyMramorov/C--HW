@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C# HW/Lesson_2/Zadacha_1/Zadacha_1.csproj",
+      "projectUniqueName": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_2/Zadacha_1/Zadacha_1.csproj",
       "projectName": "Zadacha_1",
-      "projectPath": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C# HW/Lesson_2/Zadacha_1/Zadacha_1.csproj",
+      "projectPath": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_2/Zadacha_1/Zadacha_1.csproj",
       "packagesPath": "/Users/yaroslav/.nuget/packages/",
-      "outputPath": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C# HW/Lesson_2/Zadacha_1/obj/",
+      "outputPath": "/Volumes/ADATA SE760/Обучение/Обучение GeekBrains/C--HW/Lesson_2/Zadacha_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/yaroslav/.nuget/NuGet/NuGet.Config"
