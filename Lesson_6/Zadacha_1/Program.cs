@@ -11,4 +11,4 @@ for (int i = 0; i < m; i++)
     }
 }
 Console.WriteLine();
-Console.WriteLine($"количество значений больше 0 = {sum}");
+Console.WriteLine($"Чисел больше 0 = {sum}");
