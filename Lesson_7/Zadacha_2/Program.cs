@@ -3,10 +3,10 @@ int m = Convert.ToInt32(Console.ReadLine());
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Массив: ");
 double[,] array = new double[m,n];
-Random x = new Random();
+Random random = new Random();
 for (int i = 0; i<m;i++){
     for(int ii = 0;ii<n; ii++){
-        array[i,ii] = x.Next(0,10);
+        array[i,ii] = random.Next(0,10);
         Console.Write(array[i,ii]+ " ");
     }
     Console.WriteLine();
