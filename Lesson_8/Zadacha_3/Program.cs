@@ -1,4 +1,17 @@
-﻿void TheMatrix(int[,] arr)
+﻿int rowCount = 2;
+int columnCount = 2;
+int[,] matrix1 = new int[rowCount, columnCount];
+int[,] matrix2 = new int[rowCount, columnCount];
+TheMatrix(matrix1);
+TheMatrix(matrix2);
+Console.WriteLine("Матрица один");
+PrintArray(matrix1);
+Console.WriteLine("Матрица два");
+PrintArray(matrix2);
+Console.WriteLine("Произведение двух матриц");
+PrintArray(MatrixMultiplication(matrix1, matrix2));
+
+void TheMatrix(int[,] arr)
 {
     Random random = new Random();
     for (int i = 0; i < arr.GetLength(0); i++)
@@ -46,16 +59,3 @@ int[,] MatrixMultiplication(int[,] arr1, int[,] arr2)
     }
     return MatrixMultiplication;
 }
-
-int rowCount = 2;
-int columnCount = 2;
-int[,] matrix1 = new int[rowCount, columnCount];
-int[,] matrix2 = new int[rowCount, columnCount];
-TheMatrix(matrix1);
-TheMatrix(matrix2);
-Console.WriteLine("Матрица один");
-PrintArray(matrix1);
-Console.WriteLine("Матрица два");
-PrintArray(matrix2);
-Console.WriteLine("Произведение двух матриц");
-PrintArray(MatrixMultiplication(matrix1, matrix2));
