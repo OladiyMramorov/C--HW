@@ -1,0 +1,15 @@
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/bin/Debug/net7.0/Zadacha_2
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/bin/Debug/net7.0/Zadacha_2.deps.json
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/bin/Debug/net7.0/Zadacha_2.runtimeconfig.json
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/bin/Debug/net7.0/Zadacha_2.dll
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/bin/Debug/net7.0/Zadacha_2.pdb
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.csproj.AssemblyReference.cache
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.AssemblyInfoInputs.cache
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.AssemblyInfo.cs
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.csproj.CoreCompileInputs.cache
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.dll
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/refint/Zadacha_2.dll
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.pdb
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/Zadacha_2.genruntimeconfig.cache
+/Volumes/ADATA SE760/Обучение/C--HW-1/Lesson_8/Zadacha_2/obj/Debug/net7.0/ref/Zadacha_2.dll
