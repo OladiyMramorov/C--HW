@@ -2,8 +2,8 @@
 int n = 2;
 int[,] matrix1 = new int[m, n];
 int[,] matrix2 = new int[m, n];
-TheMatrix(matrix1);
-TheMatrix(matrix2);
+FillMatrix(matrix1);
+FillMatrix(matrix2);
 Console.WriteLine("Матрица один");
 PrintArray(matrix1);
 Console.WriteLine("Матрица два");
@@ -11,7 +11,7 @@ PrintArray(matrix2);
 Console.WriteLine("Произведение двух матриц");
 PrintArray(MatrixMultiplication(matrix1, matrix2));
 
-void TheMatrix(int[,] arr)
+void FillMatrix(int[,] arr)
 {
     Random random = new Random();
     for (int i = 0; i < arr.GetLength(0); i++)
