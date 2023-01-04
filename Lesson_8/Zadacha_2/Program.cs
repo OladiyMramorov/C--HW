@@ -1,8 +1,8 @@
 ﻿Console.Write("Введите количество строк: ");
-int linesVol = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
-int columnsVol = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[linesVol, columnsVol];
+int n = Convert.ToInt32(Console.ReadLine());
+int[,] numbers = new int[m, n];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 int minsum = Int32.MaxValue;
