@@ -1,26 +1,26 @@
-﻿Console.Write("Введите количество строк: ");
+﻿/*Строка с наименьшей суммой элементов. Согласен с подходом, именование методов удачное. 
+Но не могу согласиться с ответом, поскольку номер строки измениется только на строке 20 (скрин теста приладываю)*/
+
+
+Console.Write("Введите количество строк: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[m, n];
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
+int[,] arr = new int[m, n];
+FillArrayRandomNumbers(arr);
+PrintArray(arr);
+int indexLine = -1;
 int minsum = Int32.MaxValue;
-int indexLine = 0;
-for (int i = 0; i < numbers.GetLength(0); i++)
-{
+for (int i = 0; i<arr.GetLength(0); i++){
     int sum = 0;
-    for (int j = 0; j < numbers.GetLength(1); j++)
-    {
-        sum = sum + numbers[i, j];        
+    for (int j = 0; j < arr.GetLength(1); j++){
+        sum += arr[i,j];
     }
-    if (sum < minsum)
-    {
+    if (sum < minsum){
         minsum = sum;
-        indexLine++;
+        indexLine = i+1;
     }
 }
-
 Console.WriteLine("Cтрока с наименьшей суммой елементов под номером: " + (indexLine) + ", с суммой елементов равной: " + (minsum));
 
 void FillArrayRandomNumbers(int[,] arr)
