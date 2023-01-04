@@ -1,11 +1,20 @@
-﻿int m = 5;
-int n = 5;
-int[,] array = new int[m, n];
-FillArray(array);
-PrintArray(array);
-GetNumbers(array);
+﻿/*
+Непоторяющиеся эл-ты. Логику с рекурсией понял, но есть пара моментов:
+- вложенность циклов величиной в четыре - очень большая, рекомедовал бы что-то вынести в метод (например проверку эл-та на присутствие в массиве)
+- вижу что если повтор найден, то элемент генерируется, вставляется и снова проверяется. 
+Но хотелось бы чтобы вставляли эл-т, который уникальный и не присутствует в массиве. 
+Если вставлять эл-т и проверять его только после вставки, то проходов по массиву может быть очень много.
+*/
+Console.WriteLine("Введите размер массива m*n (но не более чем 9*10)");
+Console.Write("Введите m: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int[,] arr = new int[m, n];
+FillArray(arr);
+PrintArray(arr);
+GetNumbers(arr);
 Console.WriteLine();
-PrintArray(array);
 
 void FillArray(int[,] arr)
 {
