@@ -1,22 +1,22 @@
-﻿Console.Write("Введите N: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите M: ");
+﻿Console.Write("Введите M: ");
 int m = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите N: ");
+int n = Convert.ToInt32(Console.ReadLine());
 int sum;
-if (n<m)
-{
-    sum = SumNaturalElements(n, m);
-}
-else
+if (m<n)
 {
     sum = SumNaturalElements(m, n);
 }
-Console.WriteLine($"Сумма натуральных элементов в промежутке от {n} до {m} = {sum}");
-
-int SumNaturalElements(int n, int m)
+else
 {
-    if (n <= m){
-        return n+SumNaturalElements(n+1,m);
+    sum = SumNaturalElements(n, m);
+}
+Console.WriteLine($"Сумма натуральных элементов в промежутке от {m} до {n} = {sum}");
+
+int SumNaturalElements(int m, int n)
+{
+    if (m <= n){
+        return m+SumNaturalElements(m+1,n);
     }
     else{
         return 0;
