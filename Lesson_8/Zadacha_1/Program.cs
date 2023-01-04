@@ -28,25 +28,25 @@ Console.WriteLine();
 Console.WriteLine("Массив с упорядоченными значениями");
 PrintArray(numbers);
 
-void FillArrayRandomNumbers(int[,] array)
+void FillArrayRandomNumbers(int[,] arr)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(0, 10);
+            arr[i, j] = new Random().Next(0, 10);
         }
     }
 }
 
-void PrintArray(int[,] array)
+void PrintArray(int[,] arr)
 {
-    for (int i = 0; i < array.GetLength(0); i++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
         Console.Write("[ ");
-        for (int j = 0; j < array.GetLength(1); j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            Console.Write(array[i, j] + " ");
+            Console.Write(arr[i, j] + " ");
         }
         Console.Write("]");
         Console.WriteLine("");
