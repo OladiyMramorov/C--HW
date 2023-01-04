@@ -1,7 +1,7 @@
-﻿int rowCount = 2;
-int columnCount = 2;
-int[,] matrix1 = new int[rowCount, columnCount];
-int[,] matrix2 = new int[rowCount, columnCount];
+﻿int m = 2;
+int n = 2;
+int[,] matrix1 = new int[m, n];
+int[,] matrix2 = new int[m, n];
 TheMatrix(matrix1);
 TheMatrix(matrix2);
 Console.WriteLine("Матрица один");
