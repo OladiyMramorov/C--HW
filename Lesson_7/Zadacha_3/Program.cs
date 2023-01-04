@@ -1,4 +1,11 @@
-﻿void RandomArray(int[,] arr)
+﻿int m = 5;
+int n = 5;
+int[,] array = new int[m, n];
+RandomArray(array);
+PrintArray(array);
+GetArithmeticMeanAmongPalindromes(array);
+
+void RandomArray(int[,] arr)
 {
     Random random = new Random();
     for (int i = 0; i < arr.GetLength(0); i++)
@@ -52,10 +59,3 @@ void GetArithmeticMeanAmongPalindromes(int[,] arr)
         Console.Write(array[i] + " ");
     }
 }
-
-int m = 5;
-int n = 5;
-int[,] array = new int[m, n];
-RandomArray(array);
-PrintArray(array);
-GetArithmeticMeanAmongPalindromes(array);
