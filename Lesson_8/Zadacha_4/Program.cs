@@ -26,14 +26,14 @@ int[,] FillArray(int[] sizeArray)
         {
             if (i == 0 && j == 0) continue;
             tmp = random.Next(1, 100);           
-            if (CheckDuplicate(array, tmp)) j--;            
+            if (checkDuplicate(array, tmp)) j--;            
             else array[i, j] = tmp;
         }
     }
     return array;
 }
 
-bool CheckDuplicate(int[,] arr, int num)
+bool checkDuplicate(int[,] arr, int num)
 {   
     for (int i = 0; i < arr.GetLength(0); i++)
     {
