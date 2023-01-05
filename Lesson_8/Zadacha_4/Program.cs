@@ -5,11 +5,24 @@
 Но хотелось бы чтобы вставляли эл-т, который уникальный и не присутствует в массиве. 
 Если вставлять эл-т и проверять его только после вставки, то проходов по массиву может быть очень много.
 */
-
-Console.Write("Введите m: ");
-int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите n: ");
-int n = Convert.ToInt32(Console.ReadLine());
+int m = 0;
+while (true)
+{
+    Console.Write("Введите M: ");
+    if (int.TryParse(Console.ReadLine(), out m) && (m < 10))
+        break;
+    else 
+        Console.WriteLine("Программа принимает числа до 10");
+}
+int n = 0;
+while (true)
+{
+    Console.Write("Введите N: ");
+    if (int.TryParse(Console.ReadLine(), out n) && (n < 10))
+        break;
+    else 
+        Console.WriteLine("Программа принимает числа до 10");
+}
 int[] sizeArray = {m, n};
 int[,] arr = FillArray(sizeArray);
 PrintArray(arr);
